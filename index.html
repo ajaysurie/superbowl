@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westfield Slider Throwdown 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(to bottom, #1e3a8a, #1e40af);
+            color: white;
+            min-height: 100vh;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .title {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        .game-banner {
+            background: #1d4ed8;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+            text-align: center;
+            animation: glow 3s infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 10px rgba(251, 191, 36, 0.3); }
+            50% { box-shadow: 0 0 20px rgba(251, 191, 36, 0.6); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        .subtitle {
+            font-size: 2.5rem;
+            color: #fbbf24;
+            margin-bottom: 2rem;
+        }
+
+        .emoji-container {
+            font-size: 2.5rem;
+            margin: 1rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .event-details {
+            background: #1d4ed8;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .featured-image {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 1rem;
+            margin: 2rem auto;
+            display: block;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .voting-section {
+            background: #fbbf24;
+            color: #1e3a8a;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .vote-button {
+            background: #1e3a8a;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .vote-button:hover {
+            background: #1e40af;
+        }
+
+        .fun-text {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 2rem 0;
+            font-style: italic;
+        }
+
+        .rules {
+            background: #1d4ed8;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+
+        .rules h3 {
+            color: #fbbf24;
+            margin-bottom: 1rem;
+        }
+
+        .super-bowl-facts {
+            background: rgba(29, 78, 216, 0.8);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+
+        .super-bowl-facts h3 {
+            color: #fbbf24;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #1d4ed8;
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 2.5rem;
+            }
+            .subtitle {
+                font-size: 2rem;
+            }
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="emoji-container">
+                🏈 ⭐️ 🏈
+            </div>
+            <h1 class="title">Super Bowl LIX</h1>
+            <h2 class="subtitle">WESTFIELD SLIDER THROWDOWN</h2>
+            <p style="font-size: 1.2rem;">Join us at the Rosenkranz's for the most epic slider battle since sliced buns!</p>
+            <p style="font-size: 1.1rem; color: #fbbf24;">(Where every bite is judged and every judge is bribed with more sliders)</p>
+        </div>
+
+        <!-- Game Banner -->
+        <div class="game-banner">
+            <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">🏟️ Super Bowl LIX 🏟️</h3>
+            <p style="font-size: 1.2rem;">Live from New Orleans, Louisiana</p>
+            <p style="font-size: 1.1rem; color: #fbbf24; margin-top: 0.5rem;">Caesars Superdome</p>
+            <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p style="font-size: 1.1rem;">National Anthem Performance by</p>
+                <p style="font-size: 1.3rem; color: #fbbf24; margin-top: 0.5rem;">Jon Batiste</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Five-time Grammy Award Winner</p>
+            </div>
+        </div>
+
+        <!-- Event Details -->
+        <div class="event-details">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Game Day Details</h3>
+            <p>Sunday, February 9th, 2025</p>
+            <p>Arrival & Pregame: 4:00 PM</p>
+            <p>Slider Judging: 5:30 PM</p>
+            <p>Kickoff: 6:30 PM ET</p>
+            <p style="margin-top: 1rem;">📍 20 Mohawk Trail, Westfield NJ 07090</p>
+        </div>
+
+        <!-- Featured Image -->
+        <img src="superbowl.jpg" alt="Our Future Slider Champions" class="featured-image">
+
+        <!-- Super Bowl Fun Facts -->
+        <div class="super-bowl-facts">
+            <h3>🏈 Game Day Entertainment 🏈</h3>
+            <ul style="list-style: none; text-align: center;">
+                <li style="margin: 0.5rem 0;">National Anthem by Jon Batiste</li>
+                <li style="margin: 0.5rem 0;">Halftime Show Spectacular</li>
+                <li style="margin: 0.5rem 0;">Famous Super Bowl Commercials</li>
+                <li style="margin: 0.5rem 0;">And the WESTFIELD SLIDER SHOWDOWN! 🍔</li>
+            </ul>
+        </div>
+
+        <!-- Rules & Fun -->
+        <div class="rules">
+            <h3>Official* Throwdown Rules</h3>
+            <p>* Rules subject to change based on bribes and/or particularly delicious sliders</p>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li>All sliders must be delicious</li>
+                <li>No illegal use of Kayla</li>
+                <li>Creative names for your slider are encouraged and may earn bonus points</li>
+                <li>Trash talk is encouraged, but keep it family-friendly!</li>
+            </ul>
+        </div>
+
+        <!-- Voting Section -->
+        <div class="voting-section">
+            <h3 style="font-size: 2rem; margin-bottom: 1rem;">Ready to Crown a Champion? 👑</h3>
+            <p style="font-size: 1.2rem;">Cast your vote for the slider that made your taste buds dance!</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFYfgvgjRTVo-2pDc9k6mRGEyvgEbTWQ0W9JxvGsIFWcY8AQ/viewform?usp=header" 
+               class="vote-button" target="_blank">
+                VOTE NOW 🏅
+            </a>
+        </div>
+
+        <p class="fun-text">Remember: In the end, we're all winners... but someone's getting a trophy! 🏆</p>
+
+        <!-- Footer -->
+        <footer>
+            <div class="emoji-container">
+                🏈 🍔 🏆
+            </div>
+            <p>May the best slider win!</p>
+            <p style="font-size: 0.9rem; margin-top: 1rem; color: #a5b4fc;">
+                Disclaimer: No sliders were harmed in the making of this competition
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
